@@ -42,9 +42,3 @@ jobs:
       with:
         name: AppleBlox-${{ env.VERSION }}_universal.dmg
         path:  dist/AppleBlox-${{ env.VERSION }}_universal.dmg
-
-    - name: Upload (mac_arm64)
-      uses: actions/upload-artifact@v4
-      with:
-        name: AppleBlox-${{ env.VERSION }}_arm64.dmg
-        path: dist/AppleBlox-${{ env.VERSION }}_arm64.dmg
